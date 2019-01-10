@@ -1,0 +1,15 @@
+{
+    "name": "allboatsrise/fullstack-developer-exercise",
+    "description": "Simple exercise to test comfort with different technologies and libraries.",
+    "require": {
+        "php": ">=7.0",
+        "ext-PDO": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "authors": [
+        {
+            "name": "Andrej Pavlovic",
+            "email": "apavlovic@allboatsrise.com"
+        }
+    ]
+}
