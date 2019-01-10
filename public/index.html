@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Fullstack Developer Exercise</title>
+
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div data-controller="AbrPersonFavoriteColor">
+      <form action="" data-target="AbrPersonFavoriteColor.form">
+        <select name="name">
+          <option value="Andrej">Andrej</option>
+          <option value="Andrew">Andrew</option>
+          <option value="James">James</option>
+          <option value="Kayla">Kayla</option>
+          <option value="Thomas">Thomas</option>
+          <option value="Ziggy Stardust">Ziggy Stardust</option>
+        </select>
+        <input type="submit" value="Get Favorite Color" />
+      </form>
+
+      <div class="output">
+        <h3 class="label">Output:</h3>
+        <span class="name" data-target="AbrPersonFavoriteColor.name"></span>
+        <span class="color" data-target="AbrPersonFavoriteColor.color"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="node_modules/stimulus/dist/stimulus.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
