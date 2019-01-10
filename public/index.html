@@ -13,8 +13,9 @@
   <div class="wrapper">
     <div data-controller="AbrPersonFavoriteColor">
       <form action="" data-target="AbrPersonFavoriteColor.form">
-        <select name="name">
-          <option value="Andrej">Andrej</option>
+        <select name="name" required>
+          <option value=""></option>
+          <option value="Andrej" selected>Andrej</option>
           <option value="Andrew">Andrew</option>
           <option value="James">James</option>
           <option value="Kayla">Kayla</option>
@@ -27,8 +28,8 @@
       <!-- Display ABR person name and favorite color here -->
       <div class="output">
         <h3 class="label">Output:</h3>
-        <span class="name" data-target="AbrPersonFavoriteColor.name"></span>
-        <span class="color" data-target="AbrPersonFavoriteColor.color"></span>
+        <span class="name" data-target="AbrPersonFavoriteColor.name">Andrej</span>
+        <span class="color" data-target="AbrPersonFavoriteColor.color">Blue</span>
       </div>
     </div>
   </div>
