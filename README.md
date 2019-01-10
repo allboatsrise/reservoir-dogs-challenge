@@ -2,7 +2,7 @@
 
 The goal of this exercise is to demonstrate ability to work with different backend/frontend technologies while incorporating slightly lesser known libraries.
 
-<kbd>![index.html](screenshot.png)</kbd>
+![index.html](screenshot.png)
 
 ## Task
 1. Clone this repository.
