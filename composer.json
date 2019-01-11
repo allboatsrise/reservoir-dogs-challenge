@@ -1,5 +1,5 @@
 {
-    "name": "allboatsrise/fullstack-developer-exercise",
+    "name": "allboatsrise/reservoir-dogs-challenge",
     "description": "Simple exercise to test comfort with different technologies and libraries.",
     "require": {
         "php": ">=7.0",

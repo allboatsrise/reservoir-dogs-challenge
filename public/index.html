@@ -11,31 +11,33 @@
 
 <body>
   <div class="wrapper">
-    <div data-controller="AbrPersonFavoriteColor">
-      <form action="" data-target="AbrPersonFavoriteColor.form">
-        <select name="name" required>
-          <option value=""></option>
-          <option value="Andrej" selected>Andrej</option>
-          <option value="Andrew">Andrew</option>
-          <option value="James">James</option>
-          <option value="Kayla">Kayla</option>
-          <option value="Thomas">Thomas</option>
-          <option value="Ziggy Stardust">Ziggy Stardust</option>
+    <h1>Reservoir Dogs Challenge</h1>
+    <div data-controller="AliasMapper">
+      <form action="" data-target="AliasMapper.form">
+        <select name="alias" required>
+          <option value="">--- Choose Alias ---</option>
+          <option value="Mr. White">Mr. White</option>
+          <option value="Mr. Orange">Mr. Orange</option>
+          <option value="Mr. Blonde">Mr. Blonde</option>
+          <option value="Mr. Pink">Mr. Pink</option>
+          <option value="Mr. Blue">Mr. Blue</option>
+          <option value="Mr. Brown">Mr. Brown</option>
+          <option value="Mr. Purple">Mr. Purple</option>
         </select>
-        <input type="submit" value="Get Favorite Color" />
+        <input type="submit" value="Reveal Name" />
       </form>
 
-      <!-- Display ABR person name and favorite color here -->
+      <!-- Display Alias mapping result -->
       <div class="output">
         <h3 class="label">Output:</h3>
-        <span class="name" data-target="AbrPersonFavoriteColor.name">Andrej</span>
-        <span class="color" data-target="AbrPersonFavoriteColor.color">Blue</span>
+        Alias <span class="name" data-target="AliasMapper.alias">x</span>
+        maps to <span class="color" data-target="AliasMapper.name">y</span>.
       </div>
     </div>
   </div>
 
   <script src="node_modules/stimulus/dist/stimulus.umd.js"></script>
-  <script src="js/AbrPersonFavoriteColor.js"></script>
+  <script src="js/AliasMapper.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

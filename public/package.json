@@ -1,15 +1,10 @@
 {
-  "name": "tech-interview-test",
+  "name": "@allboatsrise/reservoir-dogs-challenge",
   "version": "0.1.0",
   "description": "Simple exercise to test comfort with different technologies and libraries.",
-  "main": "index.js",
   "dependencies": {
     "normalize.css": "^8.0.1",
     "stimulus": "^1.1.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrej Pavlovic <apavlovic@allboatsrise.com>",
   "license": "UNLICENSED"

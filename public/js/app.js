@@ -1,2 +1,2 @@
 const app = Stimulus.Application.start();
-app.register('AbrPersonFavoriteColor', AbrPersonFavoriteColor);
+app.register('AliasMapper', AliasMapper);
