@@ -15,7 +15,10 @@ Reveal the real name of robbers given their alias.
 6. Old alias value should animate out and new alias value should animate in. (basic fade in/out animation is fine)
 7. If there is no name for given alias, write `<unknown>`.
 
-There is no time limit on this, but take at least a solid hour to work on it. Most of the time will probably be spent on getting familiar with languages or libraries, as the actual task is not very complex. Pseudo code and general thoughts on what could be done given more time is welcomed in the code. Take into account security and edge cases where needed.
+- There is no time limit on this, but take at least a solid hour to work on it.
+- Most of the time will probably be spent on getting familiar with languages or libraries.
+- Pseudo code and general thoughts on what could be done given more time is welcomed in the code.
+- Take into account security and edge cases where needed.
 
 ## Support
 If there are any questions, you can open an issue or send an email to [Andrej Pavlovic](mailto:apavlovic@allboatsrise.com)
@@ -49,3 +52,6 @@ TABLE: robber
 | 6  | Mr. Brown  |          |
 +----+------------+----------+
 ```
+
+## Context
+[![Why Am I Mr. Pink? - Reservoir Dogs (8/12) Movie CLIP (1992) HD](https://img.youtube.com/vi/4W5KhfJHF_4/0.jpg)](https://www.youtube.com/watch?v=4W5KhfJHF_4)
