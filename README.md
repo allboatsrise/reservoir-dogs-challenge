@@ -8,12 +8,13 @@ The goal of this exercise is to demonstrate ability to work with different backe
 Reveal the real name of robbers given their alias.
 
 1. Clone this repository.
-2. Implement `AliasMapper` [stimulus](https://stimulusjs.org/) controller, such that the real name is fetched for selected alias when the "Reveal Name" button is pressed.
-3. Robber information is stored in a [SQLite database](data/database.sqlite) in `robber` table.
-4. The controller should fetch robber data by making an AJAX request to [api/endpoint.php](api/endpoint.php) where PHP should be used to load the SQLite database file and return the matching alias.
-5. Once the data is fetched by the controller, it should be outputted below the form with the alias and name.
-6. Old alias value should animate out and new alias value should animate in. (basic fade in/out animation is fine)
-7. If there is no name for given alias, write `<unknown>`.
+2. Implement page design as per [design.psd](design.psd). Ensure page [scales well across different screen sizes](https://www.w3schools.com/html/html_responsive.asp).
+3. Implement `AliasMapper` [stimulus](https://stimulusjs.org/) controller, such that the real name is fetched for selected alias when the "Reveal Name" button is pressed.
+4. Robber information is stored in a [SQLite database](data/database.sqlite) in `robber` table.
+5. The controller should fetch robber data by making an AJAX request to [api/endpoint.php](api/endpoint.php) where PHP should be used to load the SQLite database file and return the matching alias.
+6. Once the data is fetched by the controller, it should be outputted below the form with the alias and name.
+7. Old alias value should animate out and new alias value should animate in. (basic fade in/out animation is fine)
+8. If there is no name for given alias, write `<unknown>`.
 
 - There is no time limit on this, but take at least a solid hour to work on it.
 - Most of the time will probably be spent on getting familiar with languages or libraries.
