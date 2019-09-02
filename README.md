@@ -26,13 +26,14 @@ If there are any questions, you can open an issue or send an email to [Andrej Pa
 
 ## Requirements
 - NPM 6.0+
-- Apache server with PHP 7.0+
-- PHP should have pdo_sqlite module enabled
+- PHP 7.0+ (with pdo_sqlite module enabled)
 - Chrome 70+ (doesn't have to run in other browsers)
 
 ## Development setup
-- Run `npm install` inside [public](public) folder.
-- Server DocumentRoot should be set to [public](public) folder.
+- Go to [public](public) folder
+- Run `npm install`
+- Run `php -S 127.0.0.1:8000` (keep running while developing)
+- Open browser and go to `http://127.0.0.1:8000`
 
 ## Database Schema + Data
 ```
